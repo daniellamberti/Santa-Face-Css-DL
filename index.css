@@ -1,0 +1,244 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#bg-div {
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 5em;
+    background-image: linear-gradient(45deg, rgb(2, 102, 2) 25%, rgb(112, 110, 110) 25%, rgb(112, 110, 110) 50%, rgb(2, 102, 2) 50%, rgb(2, 102, 2) 75%, rgb(112, 110, 110) 75%);
+    background-size: 110px 110px; /* Adjust to control stripe thickness */
+    border: 4px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+#santa-face {
+    width: 340px;
+    height: 215px;
+    z-index: 2;
+    position: absolute;
+    top: 88px;
+    left: 461px;
+}
+
+
+.one {
+    width: 94px;
+    height: 36px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 125px;
+    z-index: 3;
+    border-top-left-radius: 120px 70px;
+}
+
+.two {
+    width: 110px;
+    height: 27px;
+    background-color: rgb(216, 210, 210);
+    position: absolute;
+    top: 65px;
+    left: 116px;
+    z-index: 3;
+    border-radius: 8px;
+}
+
+.three {
+    width: 100px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: 92px;
+    left: 122px;
+    z-index: 3;
+    border-radius: 8px;
+}
+
+.four {
+    width: 100px;
+    height: 15px;
+    background-color: rgb(230, 160, 9);
+    position: absolute;
+    top: 104px;
+    left: 122px;
+    z-index: 3;
+    border-radius: 8px;
+}
+
+.five {
+    width: 84px;
+    height: 90px;
+    background-color: rgb(248, 228, 203);
+    position: absolute;
+    top: 91.5px;
+    left: 130px;
+    z-index: 3;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.six, .six-b {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 115px;
+    left: 152px;
+    z-index: 3;
+}
+
+.six-b {
+    left: 178px;
+}
+
+.seven {
+    width: 54px;
+    height: 20px;
+    background-color: rgb(216, 210, 210);
+    position: absolute;
+    top: 130px;
+    left: 116px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 20px;
+    z-index: 4;
+}
+
+.seven-b {
+    width: 54px;
+    height: 20px;
+    background-color: rgb(216, 210, 210);
+    position: absolute;
+    top: 130px;
+    left: 170px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 6px;
+    z-index: 4;
+
+}
+
+.red-ball {
+    width: 40px;
+    height: 36px;
+    background-color: darkred;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 30.6px;
+    left: 204px;
+}
+
+.white-ball {
+    width: 53px;
+    height: 53px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 50px;
+    left: 212px;
+}
+
+.eight {
+        width: 60px;
+        height: 20px;
+        background-color: rgb(216, 210, 210);
+        position: absolute;
+        top: 166px;
+        left: 143px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        z-index: 2;
+    }
+
+    .nine {
+        width: 26px;
+        height: 32px;
+        background-color: rgb(202, 198, 198);
+        position: absolute;
+        top: 168px;
+        left: 158px;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        z-index: 2;
+    }
+
+    .ten {
+        width: 80px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        top: 169px;
+        left: 132px;
+        z-index: 1;
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+
+    .eleven {
+        width: 94px;
+        height: 80px;
+        background-color: rgb(179, 172, 172);
+        position: absolute;
+        top: 91.5px;
+        left: 125px;
+        z-index: 2;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .twelve {
+        width: 56px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        top: 182px;
+        left: 143px;
+        z-index: 1;
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 14px;
+    }
+
+    .thirdteen {
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        position: absolute;
+        border-radius: 50%;
+        top: 188px;
+        left: 159px;
+    }
+
+    .fourteen-black {
+        width: 46px;
+        height: 32px;
+        background-color: black;
+        position: relative;
+        top: 145px;
+        left: 148px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 140px;
+        z-index: 3;
+    }
+
+    .fourteen-red {
+        width: 20px;
+        height: 18px;
+        background-color: red;
+        position: absolute;
+        top: 14px;
+        left: 23px;
+        border-top-left-radius: 26px;
+        border-bottom-right-radius: 140px;
+    }
